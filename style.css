@@ -12,3 +12,9 @@ body {
     text-align: center;
 }
 
+.calculator {
+    width: 400px;
+    height: 550px;
+    background-color: black;
+    margin: auto;
+}
