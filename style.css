@@ -72,3 +72,12 @@ body {
     text-shadow: 1px 1px 1px gray;
     color: white;
 }
+
+.calcOpr{
+    background-color: rgb(161, 111, 210);
+    color: white;
+}
+.calcOpr:hover{
+    background-color: rgb(104, 80, 127);
+    color: white;
+}
