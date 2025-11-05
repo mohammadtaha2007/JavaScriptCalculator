@@ -62,3 +62,13 @@ body {
     text-shadow: 1px 1px 1px gray;
     color: white;
 }
+
+.topCalc{
+    background-color: rgb(104, 36, 194);
+    color: white;
+}
+.topCalc:hover{
+    background-color: rgb(86, 29, 161);
+    text-shadow: 1px 1px 1px gray;
+    color: white;
+}
