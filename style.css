@@ -81,3 +81,8 @@ body {
     background-color: rgb(104, 80, 127);
     color: white;
 }
+
+#result{
+    color: white;
+    margin: 25px;
+}
