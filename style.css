@@ -5,3 +5,10 @@ body {
     height: 750px;
     display: grid;
 }
+
+.title {
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
