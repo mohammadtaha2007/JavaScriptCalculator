@@ -18,3 +18,13 @@ body {
     background-color: black;
     margin: auto;
 }
+
+.calcResult {
+    background: rgb(85, 85, 129);
+    background: linear-gradient(225deg, rgb(52, 52, 78) 0%, rgb(63, 99, 154) 50%, rgb(24, 44, 64) 100%);
+    /* border-bottom: 1px solid lightgray; */
+    height: 100px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
