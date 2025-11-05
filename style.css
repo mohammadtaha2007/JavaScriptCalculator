@@ -37,3 +37,8 @@ body {
     grid-template-columns: repeat(4,1fr);
     /* grid-template-columns: auto auto auto auto; */
 }
+.calcButton{
+    border: 1px solid  black;
+    font-size: larger;
+    cursor: pointer;
+}
