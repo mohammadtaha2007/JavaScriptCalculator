@@ -18,23 +18,26 @@
 
         <div class="calcBody">
             <button class="calcButton topCalc" onclick="AC()" id="BtnAC">AC</button>
-            <button class="calcButton topCalc" onclick="C()" id="BtnRemove">C</button>
-            <button class="calcButton topCalc" onclick="inputNum('%')" id="BtnPercent">%</button>
-            <button class="calcButton calcOpr" onclick="inputNum('/')" id="BtnDivision">÷</button>
-            <button class="calcButton calcNum" onclick="inputNum(1)" id="Btn1">1</button>
-            <button class="calcButton calcNum" onclick="inputNum(2)" id="Btn2">2</button>
-            <button class="calcButton calcNum" onclick="inputNum(3)" id="Btn3">3</button>
+            <button class="calcButton topCalc" onclick="C()" id="BtnRemove">←</button>
+            <button class="calcButton calcOpr" onclick="square()" id="BtnSquare">x²</button>
+            <button class="calcButton calcOpr" onclick="sqrt()" id="BtnSqrt">√</button>
+            <button class="calcButton calcOpr" onclick="inputNum('%')" id="BtnPercent">%</button>            
+            <button class="calcButton calcOpr" onclick="inputNum('/')" id="BtnDivision">÷</button>   
+            <button class="calcButton calcNum" onclick="inputNum(7)" id="Btn7">7</button>
+            <button class="calcButton calcNum" onclick="inputNum(8)" id="Btn8">8</button>
+            <button class="calcButton calcNum" onclick="inputNum(9)" id="Btn9">9</button> 
             <button class="calcButton calcOpr" onclick="inputNum('*')" id="BtnTimes">*</button>
             <button class="calcButton calcNum" onclick="inputNum(4)" id="Btn4">4</button>
             <button class="calcButton calcNum" onclick="inputNum(5)" id="Btn5">5</button>
             <button class="calcButton calcNum" onclick="inputNum(6)" id="Btn6">6</button>
             <button class="calcButton calcOpr" onclick="inputNum('-')" id="BtnMines">-</button>
-            <button class="calcButton calcNum" onclick="inputNum(7)" id="Btn7">7</button>
-            <button class="calcButton calcNum" onclick="inputNum(8)" id="Btn8">8</button>
-            <button class="calcButton calcNum" onclick="inputNum(9)" id="Btn9">9</button>
-            <button class="calcButton calcOpr" onclick="inputNum('+')" id="BtnPlus">+</button>
-            <button class="calcButton calcNum" onclick="inputNum('.')" id="Btndot">.</button>
+            <button class="calcButton calcNum" onclick="inputNum(1)" id="Btn1">1</button>
+            <button class="calcButton calcNum" onclick="inputNum(2)" id="Btn2">2</button>
+            <button class="calcButton calcNum" onclick="inputNum(3)" id="Btn3">3</button>
+            <button class="calcButton calcOpr" onclick="inputNum('+')" id="BtnPlus">+</button>        
+            <button class="calcButton calcOpr" onclick="toggleSign()" id="BtnSign">±</button>
             <button class="calcButton calcNum" onclick="inputNum(0)" id="Btn0">0</button>
+            <button class="calcButton calcNum" onclick="inputNum('.')" id="Btndot">.</button>
             <button class="calcButton calcOpr" onclick="NumberCalc()" id="BtnEqual">=</button>
         </div>
 
