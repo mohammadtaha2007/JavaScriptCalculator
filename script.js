@@ -12,3 +12,6 @@ let AC = () => {
   result.innerHTML = "";
 };
 
+let C = () => {
+    result.innerHTML = result.innerHTML.slice(0,-1);
+}
