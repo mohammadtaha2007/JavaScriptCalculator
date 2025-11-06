@@ -8,3 +8,7 @@ let NumberCalc = () => {
   result.innerHTML = eval(result.innerHTML);
 };
 
+let AC = () => {
+  result.innerHTML = "";
+};
+
